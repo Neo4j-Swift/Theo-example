@@ -1,7 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '10.0'
+platform :ios, '12.2'
 use_frameworks!
 
 target 'theo-example' do
-  pod 'Theo', '4.0.0.b4'
+  pod 'Theo', '5.0.0'
 end
