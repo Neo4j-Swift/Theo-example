@@ -1,6 +1,16 @@
-Pods
-Podfile.lock
-theo-example.xcworkspace
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Xcode
 **/xcuserdata
 **/*.xcworkspace
+DerivedData/
+
+# CocoaPods (legacy)
+Pods
+Podfile.lock
+
+# macOS
 .DS_Store
