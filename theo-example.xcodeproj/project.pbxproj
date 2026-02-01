@@ -7,26 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		85A2CCF81E322E3D00B3AF84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A2CCF71E322E3D00B3AF84 /* AppDelegate.swift */; };
-		85A2CCFD1E322E3D00B3AF84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A2CCFB1E322E3D00B3AF84 /* Main.storyboard */; };
 		85A2CCFF1E322E3D00B3AF84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A2CCFE1E322E3D00B3AF84 /* Assets.xcassets */; };
-		85A2CD021E322E3D00B3AF84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A2CD001E322E3D00B3AF84 /* LaunchScreen.storyboard */; };
-		85A2CD0A1E322E8300B3AF84 /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A2CD091E322E8300B3AF84 /* ConnectViewController.swift */; };
-		85A2CD0C1E322E9000B3AF84 /* QueryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A2CD0B1E322E9000B3AF84 /* QueryViewController.swift */; };
 		85A2CD0E1E3239B400B3AF84 /* ConnectionConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A2CD0D1E3239B400B3AF84 /* ConnectionConfig.swift */; };
+		SWIFTUI0001E322E3D00B3AF84 /* TheoExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = SWIFTUI0011E322E3D00B3AF84 /* TheoExampleApp.swift */; };
+		SWIFTUI0021E322E3D00B3AF84 /* ConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SWIFTUI0031E322E3D00B3AF84 /* ConnectView.swift */; };
+		SWIFTUI0041E322E3D00B3AF84 /* QueryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SWIFTUI0051E322E3D00B3AF84 /* QueryView.swift */; };
 		THEO00001E322E3D00B3AF84 /* Theo in Frameworks */ = {isa = PBXBuildFile; productRef = THEO00011E322E3D00B3AF84 /* Theo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		85A2CCF41E322E3D00B3AF84 /* theo-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "theo-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		85A2CCF71E322E3D00B3AF84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		85A2CCFC1E322E3D00B3AF84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85A2CCFE1E322E3D00B3AF84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		85A2CD011E322E3D00B3AF84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85A2CD031E322E3D00B3AF84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85A2CD091E322E8300B3AF84 /* ConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
-		85A2CD0B1E322E9000B3AF84 /* QueryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryViewController.swift; sourceTree = "<group>"; };
 		85A2CD0D1E3239B400B3AF84 /* ConnectionConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionConfig.swift; sourceTree = "<group>"; };
+		SWIFTUI0011E322E3D00B3AF84 /* TheoExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheoExampleApp.swift; sourceTree = "<group>"; };
+		SWIFTUI0031E322E3D00B3AF84 /* ConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectView.swift; sourceTree = "<group>"; };
+		SWIFTUI0051E322E3D00B3AF84 /* QueryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +56,12 @@
 		85A2CCF61E322E3D00B3AF84 /* theo-example */ = {
 			isa = PBXGroup;
 			children = (
-				85A2CCF71E322E3D00B3AF84 /* AppDelegate.swift */,
-				85A2CCFB1E322E3D00B3AF84 /* Main.storyboard */,
-				85A2CCFE1E322E3D00B3AF84 /* Assets.xcassets */,
-				85A2CD001E322E3D00B3AF84 /* LaunchScreen.storyboard */,
-				85A2CD031E322E3D00B3AF84 /* Info.plist */,
-				85A2CD091E322E8300B3AF84 /* ConnectViewController.swift */,
-				85A2CD0B1E322E9000B3AF84 /* QueryViewController.swift */,
+				SWIFTUI0011E322E3D00B3AF84 /* TheoExampleApp.swift */,
+				SWIFTUI0031E322E3D00B3AF84 /* ConnectView.swift */,
+				SWIFTUI0051E322E3D00B3AF84 /* QueryView.swift */,
 				85A2CD0D1E3239B400B3AF84 /* ConnectionConfig.swift */,
+				85A2CCFE1E322E3D00B3AF84 /* Assets.xcassets */,
+				85A2CD031E322E3D00B3AF84 /* Info.plist */,
 			);
 			path = "theo-example";
 			sourceTree = "<group>";
@@ -139,9 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85A2CD021E322E3D00B3AF84 /* LaunchScreen.storyboard in Resources */,
 				85A2CCFF1E322E3D00B3AF84 /* Assets.xcassets in Resources */,
-				85A2CCFD1E322E3D00B3AF84 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,33 +144,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85A2CD0A1E322E8300B3AF84 /* ConnectViewController.swift in Sources */,
-				85A2CD0C1E322E9000B3AF84 /* QueryViewController.swift in Sources */,
-				85A2CCF81E322E3D00B3AF84 /* AppDelegate.swift in Sources */,
+				SWIFTUI0001E322E3D00B3AF84 /* TheoExampleApp.swift in Sources */,
+				SWIFTUI0021E322E3D00B3AF84 /* ConnectView.swift in Sources */,
+				SWIFTUI0041E322E3D00B3AF84 /* QueryView.swift in Sources */,
 				85A2CD0E1E3239B400B3AF84 /* ConnectionConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		85A2CCFB1E322E3D00B3AF84 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85A2CCFC1E322E3D00B3AF84 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		85A2CD001E322E3D00B3AF84 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85A2CD011E322E3D00B3AF84 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		85A2CD041E322E3D00B3AF84 /* Debug */ = {
