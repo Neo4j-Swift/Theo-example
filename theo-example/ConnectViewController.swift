@@ -4,9 +4,9 @@ class ConnectViewController: UIViewController {
 
     @IBOutlet weak var hostNameTextField: UITextField?
     @IBOutlet weak var portTextField: UITextField?
-    @IBOutlet weak var connectionTypeSegmentedControl: UISegmentedControl?
     @IBOutlet weak var userNameTextField: UITextField?
     @IBOutlet weak var passwordTextField: UITextField?
+    @IBOutlet weak var encryptedSwitch: UISwitch?
     @IBOutlet weak var connectButtonBottomLayoutConstraint: NSLayoutConstraint?
     
     
@@ -74,7 +74,8 @@ class ConnectViewController: UIViewController {
         let username = userNameTextFieldText == "" ? userNameTextFieldPlaceholder : userNameTextFieldText
         let password = passwordTextFieldText == "" ? passwordTextFieldPlaceholder : passwordTextFieldText
         
-        let config = ConnectionConfig(host: hostname, port: port, username: username, password: password)
+        let encrypted = encryptedSwitch?.isOn ?? false
+        let config = ConnectionConfig(host: hostname, port: port, username: username, password: password, encrypted: encrypted)
         
         if let queryVc = segue.destination as? QueryViewController {
             queryVc.connectionConfig = config

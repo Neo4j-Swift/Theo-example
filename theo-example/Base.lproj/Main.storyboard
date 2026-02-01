@@ -143,6 +143,20 @@
                                             <constraint firstItem="iIX-au-1Sk" firstAttribute="height" secondItem="Vdk-B6-3mg" secondAttribute="height" id="8S4-zu-xUK"/>
                                         </constraints>
                                     </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="TLS-sV-row">
+                                        <rect key="frame" x="0.0" y="148" width="313" height="31"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Use TLS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TLS-lbl-id">
+                                                <rect key="frame" x="0.0" y="0.0" width="79" height="31"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TLS-swi-id">
+                                                <rect key="frame" x="86" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="Bdu-nj-0eb" firstAttribute="width" secondItem="Vdk-B6-3mg" secondAttribute="width" id="cUy-ze-zr7"/>
@@ -163,6 +177,7 @@
                     <navigationItem key="navigationItem" title="Connection settings" id="cUu-8Z-Vfs"/>
                     <connections>
                         <outlet property="connectButtonBottomLayoutConstraint" destination="17P-G1-kOO" id="bF2-ag-IdT"/>
+                        <outlet property="encryptedSwitch" destination="TLS-swi-id" id="enc-swi-con"/>
                         <outlet property="hostNameTextField" destination="POw-da-69R" id="zdi-bM-XaL"/>
                         <outlet property="passwordTextField" destination="iIX-au-1Sk" id="AYi-bi-mO6"/>
                         <outlet property="portTextField" destination="xzO-fL-bUb" id="11c-6w-rs5"/>

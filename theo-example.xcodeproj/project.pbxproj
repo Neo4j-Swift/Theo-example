@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CDE34DD31951AAA4017958E /* Pods_theo_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE8D822B9094180B0543D8F /* Pods_theo_example.framework */; };
 		85A2CCF81E322E3D00B3AF84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A2CCF71E322E3D00B3AF84 /* AppDelegate.swift */; };
 		85A2CCFD1E322E3D00B3AF84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A2CCFB1E322E3D00B3AF84 /* Main.storyboard */; };
 		85A2CCFF1E322E3D00B3AF84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A2CCFE1E322E3D00B3AF84 /* Assets.xcassets */; };
@@ -15,11 +14,10 @@
 		85A2CD0A1E322E8300B3AF84 /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A2CD091E322E8300B3AF84 /* ConnectViewController.swift */; };
 		85A2CD0C1E322E9000B3AF84 /* QueryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A2CD0B1E322E9000B3AF84 /* QueryViewController.swift */; };
 		85A2CD0E1E3239B400B3AF84 /* ConnectionConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A2CD0D1E3239B400B3AF84 /* ConnectionConfig.swift */; };
+		THEO00001E322E3D00B3AF84 /* Theo in Frameworks */ = {isa = PBXBuildFile; productRef = THEO00011E322E3D00B3AF84 /* Theo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		01F350C6679EC65894691CED /* Pods-theo-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-theo-example.release.xcconfig"; path = "Pods/Target Support Files/Pods-theo-example/Pods-theo-example.release.xcconfig"; sourceTree = "<group>"; };
-		4F082D39AC515497952AC2C0 /* Pods-theo-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-theo-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-theo-example/Pods-theo-example.debug.xcconfig"; sourceTree = "<group>"; };
 		85A2CCF41E322E3D00B3AF84 /* theo-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "theo-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A2CCF71E322E3D00B3AF84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85A2CCFC1E322E3D00B3AF84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,7 +27,6 @@
 		85A2CD091E322E8300B3AF84 /* ConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
 		85A2CD0B1E322E9000B3AF84 /* QueryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryViewController.swift; sourceTree = "<group>"; };
 		85A2CD0D1E3239B400B3AF84 /* ConnectionConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionConfig.swift; sourceTree = "<group>"; };
-		ABE8D822B9094180B0543D8F /* Pods_theo_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_theo_example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,29 +34,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CDE34DD31951AAA4017958E /* Pods_theo_example.framework in Frameworks */,
+				THEO00001E322E3D00B3AF84 /* Theo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		75C3D45FDEBBC6AE252A450F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4F082D39AC515497952AC2C0 /* Pods-theo-example.debug.xcconfig */,
-				01F350C6679EC65894691CED /* Pods-theo-example.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		85A2CCEB1E322E3D00B3AF84 = {
 			isa = PBXGroup;
 			children = (
 				85A2CCF61E322E3D00B3AF84 /* theo-example */,
 				85A2CCF51E322E3D00B3AF84 /* Products */,
-				75C3D45FDEBBC6AE252A450F /* Pods */,
-				FEB236B069B00BA2AE0091AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,14 +72,6 @@
 			path = "theo-example";
 			sourceTree = "<group>";
 		};
-		FEB236B069B00BA2AE0091AF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				ABE8D822B9094180B0543D8F /* Pods_theo_example.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -101,17 +79,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85A2CD061E322E3D00B3AF84 /* Build configuration list for PBXNativeTarget "theo-example" */;
 			buildPhases = (
-				760070B9C01F9D6F46D6AA9C /* [CP] Check Pods Manifest.lock */,
 				85A2CCF01E322E3D00B3AF84 /* Sources */,
 				85A2CCF11E322E3D00B3AF84 /* Frameworks */,
 				85A2CCF21E322E3D00B3AF84 /* Resources */,
-				ABC56FB6B487660A4EC5C319 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "theo-example";
+			packageProductDependencies = (
+				THEO00011E322E3D00B3AF84 /* Theo */,
+			);
 			productName = "theo-example";
 			productReference = 85A2CCF41E322E3D00B3AF84 /* theo-example.app */;
 			productType = "com.apple.product-type.application";
@@ -122,19 +101,20 @@
 		85A2CCEC1E322E3D00B3AF84 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1500;
 				ORGANIZATIONNAME = "Niklas Saers";
 				TargetAttributes = {
 					85A2CCF31E322E3D00B3AF84 = {
 						CreatedOnToolsVersion = 8.2.1;
-						LastSwiftMigration = 1020;
+						LastSwiftMigration = 1500;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 85A2CCEF1E322E3D00B3AF84 /* Build configuration list for PBXProject "theo-example" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -142,6 +122,9 @@
 				Base,
 			);
 			mainGroup = 85A2CCEB1E322E3D00B3AF84;
+			packageReferences = (
+				THEO00021E322E3D00B3AF84 /* XCRemoteSwiftPackageReference "Neo4j-Swift" */,
+			);
 			productRefGroup = 85A2CCF51E322E3D00B3AF84 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -163,69 +146,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		760070B9C01F9D6F46D6AA9C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-theo-example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ABC56FB6B487660A4EC5C319 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-theo-example/Pods-theo-example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BoltProtocol/Bolt.framework",
-				"${BUILT_PRODUCTS_DIR}/CNIOAtomics/CNIOAtomics.framework",
-				"${BUILT_PRODUCTS_DIR}/CNIODarwin/CNIODarwin.framework",
-				"${BUILT_PRODUCTS_DIR}/CNIOLinux/CNIOLinux.framework",
-				"${BUILT_PRODUCTS_DIR}/CNIOSHA1/CNIOSHA1.framework",
-				"${BUILT_PRODUCTS_DIR}/PackStream/PackStream.framework",
-				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftNIO/NIO.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftNIOConcurrencyHelpers/NIOConcurrencyHelpers.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftNIOFoundationCompat/NIOFoundationCompat.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftNIOTLS/NIOTLS.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftNIOTransportServices/NIOTransportServices.framework",
-				"${BUILT_PRODUCTS_DIR}/Theo/Theo.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolt.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CNIOAtomics.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CNIODarwin.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CNIOLinux.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CNIOSHA1.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PackStream.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIO.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOConcurrencyHelpers.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOFoundationCompat.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOTLS.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOTransportServices.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Theo.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-theo-example/Pods-theo-example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		85A2CCF01E322E3D00B3AF84 /* Sources */ = {
@@ -267,6 +187,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
@@ -284,6 +205,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -294,7 +216,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -308,13 +231,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -324,6 +248,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
@@ -341,6 +266,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -351,7 +277,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -359,38 +286,45 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		85A2CD071E322E3D00B3AF84 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F082D39AC515497952AC2C0 /* Pods-theo-example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "theo-example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.saers.theo-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
 		85A2CD081E322E3D00B3AF84 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01F350C6679EC65894691CED /* Pods-theo-example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "theo-example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.saers.theo-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
@@ -416,6 +350,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		THEO00021E322E3D00B3AF84 /* XCRemoteSwiftPackageReference "Neo4j-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Neo4j-Swift/Neo4j-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		THEO00011E322E3D00B3AF84 /* Theo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = THEO00021E322E3D00B3AF84 /* XCRemoteSwiftPackageReference "Neo4j-Swift" */;
+			productName = Theo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 85A2CCEC1E322E3D00B3AF84 /* Project object */;
 }
